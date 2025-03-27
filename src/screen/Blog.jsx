@@ -1,9 +1,7 @@
+import { blogs } from "../assets/data/data";
 
-
-export default function Blog(){
+export const Blog = () => {
     return (
-        <>
-
-        </>
+        <></>
     )
 }

@@ -1,6 +1,7 @@
 
-export default function Footer(){
-    return(
+
+export const Footer = () => {
+    return (
         <></>
     )
 }

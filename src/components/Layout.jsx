@@ -1,6 +1,6 @@
 
 
-export default function Layout(){
+export const Layout = () => {
     return (
         <></>
     )
