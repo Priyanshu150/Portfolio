@@ -48,6 +48,14 @@ function App() {
                   </Layout>
                 }
               />
+              <Route 
+                path="/details"
+                element={
+                  <Layout>
+                    <PortfolioDetails />
+                  </Layout>
+                }
+              />
             </Routes>
           </BrowserRouter>
         </>
