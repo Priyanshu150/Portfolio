@@ -38,7 +38,18 @@ function App() {
 
       {!showLoader && (
         <>
-          <h1>Portfolio</h1>
+          <BrowserRouter>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <Layout>
+                    <Home />
+                  </Layout>
+                }
+              />
+            </Routes>
+          </BrowserRouter>
         </>
       )}
     </>

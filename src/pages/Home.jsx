@@ -3,6 +3,7 @@ import { Blog, Contact, Hero, Portfolio, Resume, Service, Skill, Testimonial } f
 export const Home = () => {
   return (
     <>
+      <h1>Home</h1>
       <Hero />
       <Service />
       <Portfolio />
