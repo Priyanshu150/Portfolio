@@ -4,7 +4,6 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      {/* <Service /> */}
       <Portfolio />
       <Resume />
       <Skill />

@@ -2,6 +2,8 @@ import { hero } from "../assets/data/data";
 import image from '../assets/img/image.png';
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
+import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 
 export const Hero = () => {
@@ -9,10 +11,22 @@ export const Hero = () => {
         {
             id: 1,
             icon: <FaLinkedinIn size={20} />,
+            link: "https://www.linkedin.com/in/PriyanshuSingh15/",
         },
         {
             id: 2,
             icon: <IoLogoGithub size={20} />,
+            link: "https://github.com/Priyanshu150",
+        },
+        {
+            id: 3,
+            icon: <SiLeetcode size={20} />,
+            link: "https://leetcode.com/u/Priyanshu_Kumar_Singh/",
+        },
+        {
+            id: 4,
+            icon: <SiGeeksforgeeks size={20} />,
+            link: "https://www.geeksforgeeks.org/user/priyanshukumarsingh1502/",
         },
     ];
 
@@ -30,7 +44,7 @@ export const Hero = () => {
                     <div className="content flexSB">
                         <div className="left w-half">
                             <div className="hero-content-box">
-                                <span className="hero-sub-title">I am Priyanshu</span>
+                                <span className="hero-sub-title">I am Priyanshu Singh</span>
                                 <h1 className="hero-title">
                                     Web Developer +<br />
                                     A learner
@@ -49,7 +63,7 @@ export const Hero = () => {
                                     <ul className="ul-reset social-icons">
                                         {socialIcons.map((icon, index) => (
                                             <li key={index}>
-                                                <a href="#">{icon.icon}</a>
+                                                <a href={icon.link}>{icon.icon}</a>
                                             </li>
                                         ))}
                                     </ul>
@@ -58,19 +72,9 @@ export const Hero = () => {
                         </div>
                         <div className="right w-half">
                             <div className="hero-image-box text-center">
-                                {/* <img src="../images/common/me.png" alt="logo" /> */}
+                                <img src={image} alt="Profile Photo"/>
                             </div>
                         </div>
-                    </div>
-                    <div className="funfact-area grid4">
-                        {hero.map((item, index) => (
-                            <div className="funfact-item" key={index}>
-                                <div className="number">
-                                    <span>{item.text}</span>
-                                </div>
-                                <div className="text">{item.title}</div>
-                            </div>
-                        ))}
                     </div>
                 </div>
             </section>

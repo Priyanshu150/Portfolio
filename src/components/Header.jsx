@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { linklist } from "../assets/data/data"
 import { NavLink } from "react-router-dom"
 import { IoMenuOutline, IoCloseOutline } from "react-icons/io5"
+import { TbCircleSquare } from "react-icons/tb";
 
 
 export const Header = () => {
@@ -32,9 +33,11 @@ export const Header = () => {
             <header className={`tj-header-area header-absolute ${isSticky ? "sticky" : ""}`}>
                 <div className="container flexSB">
                     <div className="logo-box">
-                        <NavLink to="/">
+                        {/* <NavLink to="/">
                             <img src="../images/common/logo.png" alt="logo" />
-                        </NavLink>
+                        </NavLink> */}
+                        <span><TbCircleSquare /></span>
+                        <span>Portfolio</span>
                     </div>
                     <div className={`header-menu ${isMenuOpen ? "open" : ""}`}>
                         <nav>
@@ -49,8 +52,8 @@ export const Header = () => {
                     </div>
                     <div className="flexSB">
                         <div className="header-button">
-                            <NavLink to="/" className="btn tj-btn-primary">
-                                Contact me!
+                            <NavLink to="https://github.com/Priyanshu150" className="btn tj-btn-primary">
+                                GitHub
                             </NavLink>
                         </div>
                         <div className="menu-icon" onClick={toggleMenu}>
