@@ -20,7 +20,7 @@ export const Portfolio = () => {
                             <button>Apps</button>
                             <div className="active-bg"></div>
                         </div>
-                    </div>
+                    </div> 
 
                     <div className="portfolio-box">
                         <div className="grid2">

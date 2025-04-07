@@ -7,8 +7,6 @@ export const Home = () => {
       <Portfolio />
       <Resume />
       <Skill />
-      {/* <Testimonial /> */}
-      {/* <Blog /> */}
       <Contact />
     </>
   );

@@ -6,50 +6,51 @@ export const linklist = [
     { id: 4, text: "Contact", link: "/contact" },
   ];
   
-  export const hero = [
-    {
-      id: 1,
-      title: "Years of Experience",
-      text: "15",
-    },
-    {
-      id: 2,
-      title: "Project Completed",
-      text: "50+",
-    },
-    {
-      id: 3,
-      title: "Happy Clients",
-      text: "1.5K",
-    },
-    {
-      id: 4,
-      title: "Years of Experience",
-      text: "14",
-    },
-  ];
-  export const service = [
-    {
-      id: 1,
-      title: "Branding Design",
-      text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-    },
-    {
-      id: 2,
-      title: "Web Design",
-      text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-    },
-    {
-      id: 3,
-      title: "UI/UX Design",
-      text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-    },
-    {
-      id: 4,
-      title: "Graphics Design",
-      text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-    },
-  ];
+  // export const hero = [
+  //   {
+  //     id: 1,
+  //     title: "Years of Experience",
+  //     text: "15",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Project Completed",
+  //     text: "50+",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Happy Clients",
+  //     text: "1.5K",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Years of Experience",
+  //     text: "14",
+  //   },
+  // ];
+
+  // export const service = [
+  //   {
+  //     id: 1,
+  //     title: "Branding Design",
+  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Web Design",
+  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "UI/UX Design",
+  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Graphics Design",
+  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
+  //   },
+  // ];
   
   export const projects = [
     {
@@ -93,65 +94,60 @@ export const linklist = [
   export const experienceData = [
     {
       id: 1,
-      time: "2022 - Present",
-      title: "Lead Developer",
-      institute: "Blockdots, London",
+      time: "2024 - Present",
+      title: "Software Engineer",
+      institute: "Hitachi Digital Services",
     },
     {
       id: 2,
-      time: "2021 - 2022",
-      title: "Full Stack Web Developer",
-      institute: "Parsons, The New School",
+      time: "2023 - 2024",
+      title: "Software Engineer Intern",
+      institute: "Hitachi Vantara",
     },
     {
       id: 3,
-      time: "2020 - 2021",
-      title: "UI Designer",
-      institute: "House of Life, Leeds",
-    },
-    {
-      id: 4,
-      time: "2018 - 2020",
-      title: "Junior Graphics Designer",
-      institute: "Theme Junction, Bursa",
+      time: "2022 - 2022",
+      title: "SDE Intern",
+      institute: "TECHIE-AID",
     },
   ];
   
   export const educationData = [
     {
       id: 1,
-      time: "2020 - 2023",
-      title: "Programming course",
-      institute: "Harverd University",
+      time: "2019 - 2023",
+      title: "Information Science & Engineering (B.E.)",
+      institute: "RNS Intitute of Technology",
     },
     {
       id: 2,
-      time: "2016 - 2020",
-      title: "Graphic design course",
-      institute: "University of Denmark",
+      time: "2016 - 2018",
+      title: "Class 12th",
+      institute: "DAV Public School, Walmi",
     },
     {
       id: 3,
-      time: "2012 - 2015",
-      title: "Web design course",
-      institute: "University of California",
-    },
-    {
-      id: 4,
-      time: "2010 - 2011",
-      title: "Design & Technology",
-      institute: "Parsons, The New School",
+      time: "2015 - 2016",
+      title: "Class 10th",
+      institute: "DAV Public School, Walmi",
     },
   ];
   
   export const skillsData = [
-    { id: 1, name: "Figma", percentage: 92, icon: "../images/skill/s1.svg" },
-    { id: 2, name: "Sketch", percentage: 80, icon: "../images/skill/s2.svg" },
-    { id: 3, name: "XD", percentage: 85, icon: "../images/skill/s3.svg" },
-    { id: 4, name: "WordPess", percentage: 99, icon: "../images/skill/s4.svg" },
-    { id: 5, name: "React", percentage: 89, icon: "../images/skill/s5.svg" },
-    { id: 6, name: "JavaScript", percentage: 93, icon: "../images/skill/s6.svg" },
+    { id: 1, name: "React", percentage: 92, icon: "../images/skill/react.svg" },
+    { id: 2, name: "Node.js", percentage: 80, icon: "../images/skill/js.svg" },
+    { id: 3, name: "Express.js", percentage: 80, icon: "../images/skill/react.svg" },
+    { id: 4, name: "Javacript", percentage: 85, icon: "../images/skill/js.svg" },
+    { id: 5, name: "C++", percentage: 99, icon: "../images/skill/react.svg" },
+    { id: 6, name: "SQL", percentage: 99, icon: "../images/skill/react.svg" },
+    { id: 7, name: "git", percentage: 99, icon: "../images/skill/js.svg" },
+    { id: 8, name: "HTML", percentage: 89, icon: "../images/skill/react.svg" },
+    { id: 9, name: "CSS", percentage: 93, icon: "../images/skill/js.svg" },
+    { id: 10, name: "Python", percentage: 93, icon: "../images/skill/react.svg" },
+    { id: 11, name: "Databases", percentage: 99, icon: "../images/skill/react.svg" },
+    { id: 12, name: "DBMS", percentage: 99, icon: "../images/skill/react.svg" },
   ];
+
   export const testimonialData = [
     {
       id: 1,

@@ -36,8 +36,7 @@ export const Header = () => {
                         {/* <NavLink to="/">
                             <img src="../images/common/logo.png" alt="logo" />
                         </NavLink> */}
-                        <span><TbCircleSquare /></span>
-                        <span>Portfolio</span>
+                        <p><TbCircleSquare />Portfolio</p>
                     </div>
                     <div className={`header-menu ${isMenuOpen ? "open" : ""}`}>
                         <nav>

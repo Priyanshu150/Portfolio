@@ -1,4 +1,5 @@
 import { linklist } from "../assets/data/data";
+import { TbCircleSquare } from "react-icons/tb";
 
 export const Footer = () => {
     return (
@@ -6,9 +7,7 @@ export const Footer = () => {
             <footer className="tj-footer-area">
                 <div className="container text-center">
                     <div className="logo-box">
-                        <a href="/">
-                            <img src="../images/common/logo.png" alt="logo" />
-                        </a>
+                            {/* <div><p><TbCircleSquare />Portfolio</p> </div> */}
                     </div>
                     <div className="footer-menu">
                         <nav>
