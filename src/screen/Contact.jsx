@@ -31,7 +31,7 @@ export const Contact = () => {
 
     return (
         <>
-            <section className="contact-section" id="contact-section">
+            <section className="contact-section" id="contact">
                 <div className="container flexSB">
                     <div className="contact-form-box w-half">
 
@@ -59,18 +59,6 @@ export const Contact = () => {
                                     <div className="form_group">
                                         <input type="tel" name="conPhone" id="conPhone" placeholder="Phone number" />
                                     </div>
-                                </div>
-
-                                <div className="form_group">
-                                    <select name="conService" id="conService" className="tj-nice-select">
-                                        <option value="" selected disabled>
-                                            Choose Service
-                                        </option>
-                                        <option value="braning">Branding Design</option>
-                                        <option value="web">Web Design</option>
-                                        <option value="uxui">UI/UX Design</option>
-                                        <option value="app">App Design</option>
-                                    </select>
                                 </div>
 
                                 <div className="form_group">

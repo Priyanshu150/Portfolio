@@ -5,7 +5,7 @@ import { PiGraduationCap } from "react-icons/pi";
 export const Resume = () => {
     return (
         <>
-            <section className="resume-section">
+            <section className="resume-section" id="resume">
                 <div className="container flexSB">
                     <div className="w-half">
                         <div className="section-header">

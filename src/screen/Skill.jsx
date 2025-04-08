@@ -4,8 +4,8 @@ import { skillsData } from "../assets/data/data";
 export const Skill = () => {
     return (
         <>
-            <section className="skills-section">
-                <div className="container ">
+            <section className="skills-section" id="skill">
+                <div className="container">
                     <div className="section-header text-center">
                         <h2 className="section-title">My Skills</h2>
                         <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you</p>
