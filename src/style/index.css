@@ -310,9 +310,10 @@ a h6:hover {
 
 .section-header {
   margin-bottom: 50px;
-  max-width: 700px;
+  max-width: 100%;
   width: 100%;
 }
+
 .section-header .section-title {
   font-size: 45px;
   background: var(--tj-theme-primary);
@@ -535,8 +536,8 @@ body.loaded {
 
 /* -------------- Header --------------*/
 header .logo-box {
-  max-width: 60px;
-  
+  max-width: max-content;
+  gap: 10px;
 }
 header img {
   width: 150px;
@@ -815,7 +816,7 @@ header img {
 .hero-image-box img {
   width: 300px;
   height: 300px;
-  border-radius: 38px;
+  border-radius: 50%;
   -webkit-transform: rotate(4.29deg);
   -ms-transform: rotate(4.29deg);
   transform: rotate(4.29deg);
