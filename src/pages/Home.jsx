@@ -1,12 +1,12 @@
-import { Blog, Contact, Hero, Portfolio, Resume, Service, Skill, Testimonial } from "../utils/Router";
+import { Contact, Hero, Portfolio, Resume, Skill } from "../utils/Router";
 
 export const Home = () => {
   return (
     <>
       <Hero />
+      <Skill />
       <Portfolio />
       <Resume />
-      <Skill />
       <Contact />
     </>
   );

@@ -33,17 +33,14 @@ export const Header = () => {
             <header className={`tj-header-area header-absolute ${isSticky ? "sticky" : ""}`}>
                 <div className="container flexSB">
                     <div className="logo-box">
-                        {/* <NavLink to="/">
-                            <img src="../images/common/logo.png" alt="logo" />
-                        </NavLink> */}
-                        <p><TbCircleSquare />Portfolio</p>
+                        <div className="app-name"><TbCircleSquare />Portfolio</div>
                     </div>
                     <div className={`header-menu ${isMenuOpen ? "open" : ""}`}>
                         <nav>
                             <ul>
                                 {linklist.map((link) => (
                                     <li key={link.id}>
-                                        <NavLink to={link.link}>{link.text}</NavLink>
+                                        <a href={link.link}>{link.text}</a>
                                     </li>
                                 ))}
                             </ul>
@@ -51,8 +48,8 @@ export const Header = () => {
                     </div>
                     <div className="flexSB">
                         <div className="header-button">
-                            <NavLink to="https://github.com/Priyanshu150" className="btn tj-btn-primary">
-                                GitHub
+                            <NavLink to="../PRIYANSHU_RESUME.pdf" target="_blank" className="btn tj-btn-primary">
+                                View Resume
                             </NavLink>
                         </div>
                         <div className="menu-icon" onClick={toggleMenu}>
