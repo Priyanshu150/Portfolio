@@ -6,52 +6,6 @@ export const linklist = [
     { id: 4, text: "Contact", link: "#contact" },
   ];
   
-  // export const hero = [
-  //   {
-  //     id: 1,
-  //     title: "Years of Experience",
-  //     text: "15",
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Project Completed",
-  //     text: "50+",
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Happy Clients",
-  //     text: "1.5K",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Years of Experience",
-  //     text: "14",
-  //   },
-  // ];
-
-  // export const service = [
-  //   {
-  //     id: 1,
-  //     title: "Branding Design",
-  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Web Design",
-  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "UI/UX Design",
-  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Graphics Design",
-  //     text: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people",
-  //   },
-  // ];
-  
   export const projects = [
     {
       id: 1,
@@ -124,9 +78,9 @@ export const linklist = [
   export const skillsData = [
     { id: 1, name: "React", icon: "../images/skill/react.svg" },
     { id: 2, name: "Node.js", icon: "../images/skill/nodejs.svg" },
-    { id: 3, name: "Javacript", icon: "../images/skill/js.svg" },
+    { id: 3, name: "Redux", icon: "../images/skill/redux.svg" },
     { id: 4, name: "Express.js", icon: "../images/skill/expressjs.svg" },
-    { id: 5, name: "Redux", icon: "../images/skill/redux.svg" },
+    { id: 5, name: "Javacript", icon: "../images/skill/js.svg" },
     { id: 6, name: "git", icon: "../images/skill/git.svg" },
     { id: 7, name: "C++", icon: "../images/skill/cpp.svg" },
     { id: 8, name: "SQL", icon: "../images/skill/sql.svg" },
