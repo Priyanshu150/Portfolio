@@ -131,6 +131,24 @@ a h5:hover,
 a h6:hover {
   text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+  :root {
+    --tj-fz-h1: 38px;
+    --tj-fz-h2: 30px;
+    --tj-fz-h3: 24px;
+    --tj-fz-h4: 20px;
+    --tj-fz-h5: 18px;
+    --tj-fz-h6: 16px;
+  }
+  
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 /*  -------------- Start :  Global CSS  ------------------ */
 .container {
   width: 75%;
